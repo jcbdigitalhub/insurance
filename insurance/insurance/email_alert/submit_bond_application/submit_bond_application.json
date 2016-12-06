@@ -1,0 +1,31 @@
+{
+ "attach_print": 0, 
+ "condition": "", 
+ "creation": "2016-11-07 18:44:22.521310", 
+ "days_in_advance": 0, 
+ "docstatus": 0, 
+ "doctype": "Email Alert", 
+ "document_type": "Bond Application", 
+ "enabled": 0, 
+ "event": "New", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "message": "<h3>Application Update</h3>\n\nDear {{ doc.full_name }},\n\n<p>Your application {{ doc.name }}, with details below, has been reviewed and submitted for approval to an insurance company. We will keep you posted on updates.</p>\n\nApplication Details:\nFull Name: {{ doc.fdw_full_name }}\nWork Permit No: {{ doc.work_permit_number }}\nPassport No: {{ doc.fdw_passport_no }}\n\nThanks,\n\nName", 
+ "method": "after_upate", 
+ "modified": "2016-11-27 14:45:51.656865", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "Submit Bond Application", 
+ "owner": "Administrator", 
+ "recipients": [
+  {
+   "cc": "", 
+   "email_by_document_field": "email"
+  }, 
+  {
+   "email_by_document_field": "owner"
+  }
+ ], 
+ "subject": "Update on {{ doc.name }}", 
+ "value_changed": "documents"
+}

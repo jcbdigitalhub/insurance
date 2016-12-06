@@ -1,0 +1,25 @@
+{
+ "attach_print": 1, 
+ "condition": "doc.workflow_state == \"Endorsed\"", 
+ "creation": "2016-11-29 11:34:00.778416", 
+ "days_in_advance": 0, 
+ "docstatus": 0, 
+ "doctype": "Email Alert", 
+ "document_type": "Bond Application", 
+ "enabled": 1, 
+ "event": "Save", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "message": "Dear {{ doc.full_name }},\n<br>\n<br>Your application {{ doc.name }}, with details below, has been reviwed and endorsed to an insurance company. We will keep you posted on updates.\n<br>\n<br>Application Details:\n<br>Full Name: {{ doc.fdw_full_name }}\n<br>Work Permit No: {{ doc.work_permit_number }}\n<br>Passport No: {{ doc.fdw_passport_no }}\n<br>\n<br>Thanks,\n<br>\n<br>Bond Application Team", 
+ "modified": "2016-12-06 15:34:22.522586", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "Bond Application Endorsed", 
+ "owner": "Administrator", 
+ "recipients": [
+  {
+   "email_by_document_field": "email"
+  }
+ ], 
+ "subject": "{{doc.name}} Endorsed"
+}

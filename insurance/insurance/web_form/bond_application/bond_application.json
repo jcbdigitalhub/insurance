@@ -1,0 +1,232 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 200000.0, 
+ "creation": "2016-11-07 11:18:14.639353", 
+ "currency": "PHP", 
+ "doc_type": "Bond Application", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2016-11-27 15:21:48.380485", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "bond-application", 
+ "owner": "Administrator", 
+ "payment_button_label": "Pay Now", 
+ "payment_gateway": "PayPal", 
+ "published": 1, 
+ "route": "bond-application", 
+ "show_sidebar": 0, 
+ "sidebar_items": [], 
+ "success_message": "<h1>Application Submitted</h1>\nThank you for choosing Bond Application Corporation.\nWe have sent you an email on the details of your application including your application reference number.\nPlease keep your application reference number for immediate reference.", 
+ "success_url": "/", 
+ "title": "Bond Application", 
+ "web_form_fields": [
+  {
+   "fieldtype": "Data", 
+   "hidden": 1, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "label": "Employer Details", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "full_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Full Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "birthdate", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "Birthdate", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "nric_passport_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "NRIC Passport No", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "label": "", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "address", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Address", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "email", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Email", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "label": "Foreign Domestic Worker", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "fdw_full_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Full Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "fdw_birthdate", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "Birthdate", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "work_permit_number", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Work Permit Number", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "fdw_passport_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Passport No", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "label": "Agency Details", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "name_of_agency", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Name of Agency", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "agency_address", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Agency Address", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "contact_person", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Contact Person", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "position", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Position", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "label": "", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "documents", 
+   "fieldtype": "Attach", 
+   "hidden": 0, 
+   "label": "Documents", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}

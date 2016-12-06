@@ -1,0 +1,53 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "creation": "2016-11-05 06:44:49.505342", 
+ "doc_type": "Employer", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2016-11-05 07:08:43.349513", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "employer", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "employer", 
+ "show_sidebar": 0, 
+ "sidebar_items": [], 
+ "success_url": "/employer-signup", 
+ "title": "Employer", 
+ "web_form_fields": [
+  {
+   "fieldname": "full_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Full Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "email", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Email", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "", 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}

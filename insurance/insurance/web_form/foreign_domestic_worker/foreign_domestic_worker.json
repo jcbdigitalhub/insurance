@@ -1,0 +1,83 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 1, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 1, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "creation": "2016-11-06 08:55:33.501132", 
+ "doc_type": "Foreign Domestic Worker", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "login_required": 1, 
+ "max_attachment_size": 0, 
+ "modified": "2016-11-06 20:43:23.782582", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "foreign-domestic-worker", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "foreign-domestic-worker", 
+ "show_sidebar": 1, 
+ "sidebar_items": [], 
+ "success_url": "/foreign-domestic-worker", 
+ "title": "Foreign Domestic Worker", 
+ "web_form_fields": [
+  {
+   "fieldname": "full_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Full Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "birthdate", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "Birthdate", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "work_permit_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Work Permit No", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "passport_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Passport No", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 1, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "insurance_payment", 
+   "fieldtype": "Table", 
+   "hidden": 0, 
+   "label": "Insurance Payment", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Insurance Payment", 
+   "read_only": 1, 
+   "reqd": 0
+  }
+ ]
+}

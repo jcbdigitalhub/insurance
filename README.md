@@ -1,0 +1,7 @@
+## Insurance
+
+Insurance
+
+#### License
+
+MIT
