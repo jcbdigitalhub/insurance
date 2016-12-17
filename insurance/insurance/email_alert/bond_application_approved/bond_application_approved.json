@@ -1,0 +1,25 @@
+{
+ "attach_print": 0, 
+ "condition": "doc.workflow_state == \"Approved\"", 
+ "creation": "2016-12-07 12:30:47.575546", 
+ "days_in_advance": 0, 
+ "docstatus": 0, 
+ "doctype": "Email Alert", 
+ "document_type": "Bond Application", 
+ "enabled": 1, 
+ "event": "Save", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "message": "Dear {{ doc.full_name }},\n<br>\n<br>Your application {{ doc.name }}, with details below, has been approved by {{ doc.insurance_company }}. We will keep you posted on updates.\n<br>\n<br>Bond Reference No.: {{ doc.bond_ref_number }}\n<br>Application Details:\n<br>Full Name: {{ doc.fdw_full_name }}\n<br>Work Permit No: {{ doc.work_permit_number }}\n<br>Passport No: {{ doc.fdw_passport_no }}\n<br>\n<br>Thanks,\n<br>\n<br>Bond Application Team", 
+ "modified": "2016-12-07 12:30:47.575546", 
+ "modified_by": "Administrator", 
+ "module": "Insurance", 
+ "name": "Bond Application Approved", 
+ "owner": "Administrator", 
+ "recipients": [
+  {
+   "email_by_document_field": "email"
+  }
+ ], 
+ "subject": "{{doc.name}} Approved"
+}
